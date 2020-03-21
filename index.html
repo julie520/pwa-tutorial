@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ninja Food</title>
     <!-- materialize icons, css & js -->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -13,6 +13,10 @@
     <link type="text/css" rel="stylesheet" href="/css/styles.css" />
     <script type="text/javascript" src="/js/materialize.min.js"></script>
     <link rel="manifest" href="/manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700" />
+    <meta name="theme-color" content="#ffe1c4" />
   </head>
   <body class="grey lighten-4">
     <!-- top nav -->
@@ -46,6 +50,7 @@
 
     <!-- recipes -->
     <div class="recipes container grey-text text-darken-1">
+      <h6 class="center">Recipes</h6>
       <div class="card-panel recipe white row">
         <img src="/img/dish.png" alt="recipe thumb" />
         <div class="recipe-details">
@@ -129,6 +134,7 @@
       </form>
     </div>
 
+    <script src="/js/app.js"></script>
     <script src="/js/ui.js"></script>
   </body>
 </html>
