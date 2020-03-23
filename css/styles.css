@@ -58,6 +58,7 @@ nav .sidenav-trigger {
 
 .recipe-delete i {
   font-size: 18px;
+  cursor: pointer;
 }
 
 .recipe-title {
